@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us - recru</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+        <div class="topnav">
+      <nav id="navbar" >
+          <img  src="images/Picsart_23-03-20_10-24-20-980.png">
+          <ul>
+          
+              <li><a href="index.html">Home</a></li>
+          <li><a href="loaialghashm-jobs-gallary.html">Jobs</a></li>
+          <li><a href="loaialghashm-contact.html">Contact</a></li>
+          <li><a href="loaialghashm-%20about-direction.html">About</a></li>
+        <li><a href="loaialghashm-youtube.html">why recru?</a></li>
+          </ul>
+      </nav>
+            </div>
+      </header>
+      <section style="text-align: center" id="contact">
+      <h2>Contact Us</h2>
+    <p> for any inquieies, you can send to us through the form below </p>
+      <form action="index.html" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required autofocus>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">phone:</label>
+        <input type="tel" id="phone" name="phone" required>  
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="submit">
+      </form>
+    </section>
+
+
+
+      
+      <footer>
+  <p>&copy; <span id="currentYear"></span> recru LLC. All Rights Reserved.</p>
+</footer>
+
+<script>
+  var currentYear = new Date().getFullYear();
+  document.getElementById("currentYear").innerHTML = currentYear;
+</script>
+      
+  </body>
+</html>
+
+
+
